@@ -1,0 +1,36 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^16.6.0",
+    "dayjs": "^1.11.11",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.4",
+    "express": "^4.19.2",
+    "next": "^13.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^10.0.5",
+    "sequelize": "^6.37.3",
+    "sharp": "^0.33.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "bufferutil": "^4.0.8",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "utf-8-validate": "^6.0.4"
+  }
+}

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-nunito-sans), -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Toastify__toast {
+  border: 1px solid #efefef;
+  border-radius: 6px;
+  box-shadow: none;
+  font-family: var(--font-nunito-sans);
+  font-size: 14px;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.install_app {
+  display: none;
+}
+
+@media (display-mode: browser) {
+  .install_app {
+    display: block;
+  }
+}
+
+@media (display-mode: standalone) {
+  .header-logo {
+    justify-content: center;
+  }
+}
+
+@media (display-mode: fullscreen) {
+  .header-logo {
+    justify-content: center;
+  }
+}
